@@ -1,8 +1,8 @@
 'use strict';
 
 const semver = require('semver');
-const chunk = require('lodash.chunk');
-const set = require('lodash.set');
+const chunk = require('lodash').chunk;
+const set = require('lodash').set;
 
 const DEFAULT_PAYLOAD = { source: 'serverless-plugin-lambda-warmup' };
 const DEFAULT_SCHEDULE = 'rate(5 minutes)';

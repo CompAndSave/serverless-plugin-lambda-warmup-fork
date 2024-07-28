@@ -1,10 +1,7 @@
-# serverless-plugin-lambda-warmup
+# serverless-plugin-lambda-warmup-fork
 
-[![Build Status][ci-image]][ci-url]
-[![Coverage Status][coverage-image]][coverage-url]
-[![NPM version][npm-image]][npm-url]
-[![Dependencies Status][dependencies-image]][dependencies-url]
-[![DevDependencies Status][devdependencies-image]][devdependencies-url]
+## Note:
+The original plugin serverless-plugin-lambda-warmup is outdated and having issue with lodash dependencies. This forked version is with updated dependencies and cleaned up.
 
 A [Serverless][serverless-url] plugin that creates [CloudWatch rule][cloudwatch-rules-url] to keep your [AWS Lambda][aws-lambda-url] functions warm.
 
@@ -14,7 +11,7 @@ A [Serverless][serverless-url] plugin that creates [CloudWatch rule][cloudwatch-
 service: my-service
 
 plugins:
-  - serverless-plugin-lambda-warmup
+  - serverless-plugin-lambda-warmup-fork
 
 custom:
   warmup:
