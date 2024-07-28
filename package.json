@@ -1,6 +1,6 @@
 {
   "name": "serverless-plugin-lambda-warmup-fork",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Fork from a Serverless plugin that creates CloudWatch rule to keep your lambdas warm",
   "repository": {
     "type": "git",
